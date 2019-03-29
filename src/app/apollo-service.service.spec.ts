@@ -12,8 +12,8 @@ describe('ApolloServiceService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       imports: [ApolloTestingModule]
-    }),
-      (service = TestBed.get(ApolloService));
+    });
+    service = TestBed.get(ApolloService);
     apolloController = TestBed.get(ApolloTestingController);
   });
 
